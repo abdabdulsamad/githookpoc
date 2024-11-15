@@ -26,30 +26,30 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         appBarConfiguration = AppBarConfiguration(navController.graph)
         setupActionBarWithNavController(navController, appBarConfiguration)
-
         binding.fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
-        if(true){
-            if(true){
-                if (true){
-                    val a=10
-                }
-            }
-        }
 
-        if(true){
-            if(true){
-                if (true){
-                    val a=10
-                }
-            }
-        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
+        if(true){
+            if(true){
+                if (true){
+                    val a=10
+                }
+            }
+        }
+
+        if(true){
+            if(true){
+                if (true){
+                    val a=10
+                }
+            }
+        }
         menuInflater.inflate(R.menu.menu_main, menu)
         return true
     }
