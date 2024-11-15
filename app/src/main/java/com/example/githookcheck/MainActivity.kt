@@ -38,6 +38,14 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
+
+        if(true){
+            if(true){
+                if (true){
+                    val a=10
+                }
+            }
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
