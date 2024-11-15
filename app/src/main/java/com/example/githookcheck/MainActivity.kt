@@ -31,7 +31,21 @@ class MainActivity : AppCompatActivity() {
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
+        if(true){
+            if(true){
+                if (true){
+                    val a=10
+                }
+            }
+        }
 
+        if(true){
+            if(true){
+                if (true){
+                    val a=10
+                }
+            }
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -44,22 +58,6 @@ class MainActivity : AppCompatActivity() {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-
-        if(true){
-            if(true){
-                if (true){
-                    val a=10
-                }
-            }
-        }
-
-        if(true){
-            if(true){
-                if (true){
-                    val a=10
-                }
-            }
-        }
         return when (item.itemId) {
             R.id.action_settings -> true
             else -> super.onOptionsItemSelected(item)
