@@ -22,6 +22,21 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         setSupportActionBar(binding.toolbar)
+        if(true){
+            if(true){
+                if (true){
+                    val a=10
+                }
+            }
+        }
+
+        if(true){
+            if(true){
+                if (true){
+                    val a=10
+                }
+            }
+        }
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         appBarConfiguration = AppBarConfiguration(navController.graph)
         setupActionBarWithNavController(navController, appBarConfiguration)

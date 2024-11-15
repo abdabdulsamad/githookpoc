@@ -72,6 +72,6 @@ tasks.register<Copy>("installGitHook") {
 }
 
 // Optionally, run the installGitHook task automatically before each build
-tasks.named("build") {
+tasks.named("build" ) {
     dependsOn("installGitHook")
 }
